@@ -25,8 +25,7 @@ class AcmeTranslationSpec extends ObjectBehavior
         $this->getTranslatable()->shouldReturn($translatable);
     }
 
-    function its_detaches_from_its_translatable_correctly(
-    )
+    function its_detaches_from_its_translatable_correctly()
     {
         $translatable1 = new Acme();
         $translatable2 = new Acme();
